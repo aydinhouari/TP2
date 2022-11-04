@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed");
+
+body {
+  background-image: url(../images/informatiquearriereplan.jpg);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  height: 100vh;
+}
+
+.fondtransparent {
+  background-color: rgba(116, 125, 255, 0.521);
+  margin: -10px;
+  height: 250vh;
+  flex: 1;
+}
+
+.main {
+  margin: auto;
+  padding-top: 30px;
+  max-width: 1000px;
+  min-width: 500px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.contenuDroite {
+  padding: 20px;
+}
+
+.contenuGauche {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  align-items: center;
+  padding: 5px;
+  position: sticky;
+  top: 0rem;
+  height: 200px;
+}
+
+.pastille {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Barlow Condensed";
+}
+
+.contenuGauche a {
+  color: rgb(237, 200, 14);
+  background-color: rgb(25, 25, 105);
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+a:hover {
+  color: white;
+  box-shadow: rgb(237, 199, 14) 0px 5px 15px;
+}
+
+a:active {
+  background-color: black;
+  color: white;
+  text-shadow: 2px 2px rgba(195, 56, 10, 0.945);
+}
+
+a.selectionner {
+  background-color: rgb(237, 199, 14);
+  color: rgba(25, 25, 105, 0.884);
+}
+
+.entete {
+  background-color: rgba(25, 25, 105, 0.884);
+  border-radius: 8px;
+  color: rgb(237, 199, 14);
+  padding: 8px;
+  font-size: 3rem;
+  font-family: "Barlow Condensed";
+}
+
+.gridAccueil {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.soustitre {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.engrenage {
+  width: 100%;
+}
+
+.étoile {
+  opacity: 0.9;
+  width: 80%;
+  height: 80%;
+}
+
+.gridAuteur {
+  margin-top: -20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+}
+
+.photoMoi{
+  background-size: cover;
+  width: 80%;
+  height: 80%;
+  border-radius: 50px;
+  padding: 3px;
+  border: 10px solid rgba(25, 25, 105, 0.884);
+  margin-top: 20px;
+}
+
+.texte {
+  font-size: 2rem;
+  text-align: justify;
+  color: rgb(237, 199, 14);
+  background-color: rgba(25, 25, 105, 0.884);
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 20px;
+  font-family: "Barlow Condensed";
+}
+
+.gras {
+  color: rgba(241, 44, 44, 0.849);
+  font-weight: bold;
+}
+
+.source a {
+  color: white;
+  background-color: rgba(241, 44, 44, 0.849);
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Barlow Condensed";
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 8px;
+}
+
+.cryptologie {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.centrer {
+  text-align: center;
+  align-self: center;
+}
+
+.reductionPolice {
+  font-size: 1.5rem;
+}
+
+.texte ul {
+  margin-left: -10px;
+  margin-right: 20px;
+}
+
+.hyperlienparag a {
+  color: white;
+  font-family: "Barlow Condensed";
+  text-decoration: none;
+}
+
+.imageTexte {
+  width: 100%;
+  height: 100%;
+}
+
+.videoContenu {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.videoContenu iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.sautLigne20px {
+  margin-top: 20px;
+}
+
+.sautLigne40px {
+  margin-top: 40px;
+}
+
+/* -Comment faire un hover sur une autre balise ''a'' 
+sans que cela ait des répercussion sur les autres hover?
+-J'ai un problème avec le fond transparent et la marge droite de ma page lorsque
+je rapetisse la fenêtre.
+-est-ce que je perd des points vu que je l'ai fait verticalement? et est-ce que
+j'en perd a cause des marges du site?
+*/
