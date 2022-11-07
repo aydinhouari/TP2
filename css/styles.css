@@ -60,18 +60,18 @@ body {
   vertical-align: middle;
 }
 
-a:hover {
+.contenuGauche a:hover {
   color: white;
   box-shadow: rgb(237, 199, 14) 0px 5px 15px;
 }
 
-a:active {
+.contenuGauche a:active {
   background-color: black;
   color: white;
   text-shadow: 2px 2px rgba(195, 56, 10, 0.945);
 }
 
-a.selectionner {
+.contenuGauche a.selectionner {
   background-color: rgb(237, 199, 14);
   color: rgba(25, 25, 105, 0.884);
 }
